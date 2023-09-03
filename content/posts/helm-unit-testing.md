@@ -287,9 +287,8 @@ vault.hashicorp.com/agent-inject-template-config.properties: |
   {{- end -}}
 ```
 
-{{< admonition tip "Escaping Go Template in Helm Chart" >}}
+**Tip:**<br/>
 To escape Go template in the Helm Chart, we will use the solution from <https://github.com/helm/helm/issues/2798> 
-{{< /admonition >}}
 
 Insert inside `templates/_vault.tpl`:
 ```yaml

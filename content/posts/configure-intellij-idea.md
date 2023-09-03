@@ -35,7 +35,7 @@ summary: In this video explained basic configuration of IntelliJ IDEA and usage 
 |        ⌥⏎        |              | Show Intention Actions            |
 |       ⇧⌘D        |              | Search in Dash (need Dash plugin) |
 
-{{< admonition note "Keys" true >}}
+**Keys:**<br/>
 ⇧ - Shift<br/>
 ⌃ - Control<br/>
 ⌥ - Option<br/>
@@ -43,7 +43,6 @@ summary: In this video explained basic configuration of IntelliJ IDEA and usage 
 ⏎ - Return or Enter<br/>
 ⇥ - Tab<br/>
 ⎋ - Escape<br/>
-{{< /admonition >}}
 
 ## Plugins
 

@@ -19,7 +19,7 @@ but they are available only for `linux/amd64` architecture. If you try to use th
 on Mac M1 it will use an emulation to support different architecture and it will be much
 slower than it can be.
 
-{{< image src="/posts/chrome-image.png" caption="selenoid/chrome image architecture" >}}
+![selenoid/chrome image architecture](posts/chrome-image.png "selenoid/chrome image architecture")
 
 Fortunately, *sskorol* already implemented [Initial Chromium image support for arm64 #524](https://github.com/aerokube/images/pull/524).
 
@@ -31,7 +31,7 @@ Next, you may ask *why this image is based on Ubuntu 18.04*? I don't have an ans
 an old LTS Ubuntu 18.04 receives the latest Chromium updates and new LTS Ubuntu 22.04 does not.
 But you can see it at [Ubuntu packages](https://packages.ubuntu.com/search?suite=bionic-updates&searchon=names&keywords=chromium)
 
-{{< image src="/posts/ubuntu-packages.png" caption="Chromium Ubuntu packages" >}}
+![Chromium Ubuntu packages](posts/ubuntu-packages.png "Chromium Ubuntu packages")
 
 1. That's Chromium package that we need
 2. The latest Chromium version in Ubuntu jammy (22.04 LTS) is 85.0. It does not have updates.
@@ -66,9 +66,8 @@ where:
 
 After executing that command `selenoid/vnc:chromium_107.0` should be generated. All tests should pass. 
 
-{{< admonition tip >}}
+**Tip:**<br/>
 If some tests fail, try to clean your Docker (remove all containers and delete all selenoid related images).
-{{< /admonition >}}
 
 
 ## Pushing Docker image and usage with Selenoid

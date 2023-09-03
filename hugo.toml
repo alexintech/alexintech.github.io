@@ -1,13 +1,14 @@
-baseURL = "https://lsnotes.com"
+baseURL = "https://lsnotes.com/"
 # [en, zh-cn, fr, pl, ...] determines default content language
 defaultContentLanguage = "en"
 # theme
-theme = "LoveIt"
+theme = "hugo-tania"
 # themes directory
 # themesDir = "../.."
 
 # website title
-title = "ls notes"
+title = "> ls notes/"
+paginate = 6
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -626,4 +627,11 @@ enableEmoji = true
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+
+[menu]
+[[menu.header]]
+  name = "Articles"
+  url = "/articles/"
+[[menu.footer]]
+  name = "RSS"
+  url = "/index.xml"

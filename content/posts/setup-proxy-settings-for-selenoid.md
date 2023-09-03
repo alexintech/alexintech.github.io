@@ -1,4 +1,5 @@
 ---
+author: "Alexandr Cherepanov"
 title: Setup proxy settings for Selenoid
 date: 2022-11-23
 categories: [testing]
