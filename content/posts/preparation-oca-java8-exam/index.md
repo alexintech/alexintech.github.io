@@ -49,5 +49,5 @@ of the material. After completing all chapters I passed 7 full mock exams. I hav
 
 ## Result
 
-![OCA Exam results](posts/exam-results.png "OCA Exam results")
-![OCA Certificate](posts/oca-java8.png "OCA Certificate")
+![OCA Exam results](exam-results.png "OCA Exam results")
+![OCA Certificate](oca-java8.png "OCA Certificate")
